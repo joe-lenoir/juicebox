@@ -1,12 +1,26 @@
 {
   "name": "juicebox",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "seed:dev": "nodemon ./db/seed.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joe-lenoir/juicebox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joe-lenoir/juicebox/issues"
+  },
+  "homepage": "https://github.com/joe-lenoir/juicebox#readme",
+  "description": ""
 }
